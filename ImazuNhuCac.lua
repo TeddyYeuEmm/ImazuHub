@@ -11372,7 +11372,7 @@ OrionLib:Init()
 
 OrionLib:MakeNotification({
     Name = "Imazu Hub ",
-    Content = "Load Script Thành Công!!",
-    Image = "rbxassetid://117142420259738",
+    Content = "Loading Config Complete!!",
+    Image = "rbxassetid://44 83345998",
     Time = 5
 })
