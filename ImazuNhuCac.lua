@@ -24,7 +24,7 @@ function CheckQuest()
             NameQuest = "JungleQuest"
             NameMon = "Monkey"
             CFrameQuest = CFrame.new(-1598.08911, 35.5501175, 153.377838, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-            CFrameMon = CFrame.new(-1448.51806640625, 67.85301208496094, 11.46579647064209)
+            CFrameMon = CFrame.new(-1448.51806640625,67.85301208496094, 11.46579647064209)
         elseif MyLevel == 15 or MyLevel <= 29 then
             Mon = "Gorilla"
             LevelQuest = 2
@@ -8345,13 +8345,13 @@ pcall(function()
         if _G.AutoEliteHunter then
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
                 OrionLib:MakeNotification({
-                    Name = "Lap (Noitification)",
+                    Name = "Thông Báo (Noitification)",
                     Content = "[EN] : Please cancel the farrm level quest (if any)",
                     Image = "rbxassetid://4483345998",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
-                    Name = "Lap (Noitification)",
+                    Name = "Thông Báo (Noitification)",
                     Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu có)",
                     Image = "rbxassetid://4483345998",
                     Time = 9
@@ -8520,8 +8520,8 @@ spawn(function()
             if _G.AutoObservation then
                 if game:GetService("Players").LocalPlayer.VisionRadius.Value >= 3000 then
                     OrionLib:MakeNotification({
-                        Name = "Lap  BOT",
-                        Content = "!!You Are Max Point!!",
+                        Name = "Thông Báo",
+                        Content = "!!Bạn Đã Max Điểm!!",
                         Image = "rbxassetid://14919714384",
                         Time = 5
                     })
@@ -8669,8 +8669,8 @@ spawn(function()
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
             OrionLib:MakeNotification({
-                Name = "Lap ",
-                Content = "You not have beli or fragment!",
+                Name = "Thông Báo ",
+                Content = "Không Đủ Beli Hoặc F!",
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
@@ -8830,8 +8830,8 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Lap  BOT",
-                            Content = "Not Have Superhuman",
+                            Name = "Thông Báo",
+                            Content = "Không Có SuperHuman",
                             Image = "rbxassetid://14919714384",
                             Time = 5
                         })
@@ -8843,8 +8843,8 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Lap  BOT",
-                            Content = "Not Have Death Step",
+                            Name = "Thông Báo",
+                            Content = "Không Có Death Step",
                             Image = "rbxassetid://14919714384",
                             Time = 5
                         })
@@ -8856,8 +8856,8 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Lap  BOT",
-                            Content = "Not Have SharkMan Karate",
+                            Name = "Thông Báo",
+                            Content = "Không Có SharkMan Karate",
                             Image = "rbxassetid://14919714384",
                             Time = 5
                         })
@@ -8869,8 +8869,8 @@ spawn(function()
                         end
                     else
                         gOrionLib:MakeNotification({
-                            Name = "Lap  BOT",
-                            Content = "Not Have Electric Claw",
+                            Name = "Thông Báo",
+                            Content = "Không Có Electric Claw",
                             Image = "rbxassetid://14919714384",
                             Time = 5
                         })
@@ -8880,8 +8880,8 @@ spawn(function()
                         if game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon").Level.Value >= 400 or game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon").Level.Value >= 400 then
                             if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman",true), "Bring") then
                                 OrionLib:MakeNotification({
-                                    Name = "Lap  BOT",
-                                    Content = "Not Have Enough Material",
+                                    Name = "Thông Báo",
+                                    Content = "Không Đủ Nguyên Liệu",
                                     Image = "rbxassetid://14919714384",
                                     Time = 5
                                 })
@@ -8892,8 +8892,8 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "Lap  BOT",
-                            Content = "You Not Have Dragon Talon! ",
+                            Name = "Thông Báo",
+                            Content = "Không Có Dragon Talon! ",
                             Image = "rbxassetid://14919714384",
                             Time = 5
                         })
@@ -11291,15 +11291,15 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "Lap ",
-                    Content = "Turn Off Hop Find Moon Please",
+                    Name = "Imazu ",
+                    Content = "Tắt Hop Full Moon Hộ Cái",
                     Image = "rbxassetid://4483345998",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Lap ",
+                    Name = "Imazu ",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11307,7 +11307,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Lap ",
+                    Name = "Imazu ",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11315,7 +11315,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Lap ",
+                    Name = "Imazu ",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11328,9 +11328,9 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "Lap ",
-        Content = "Loading script complete!, You can now enable the function!",
-        Image = "rbxassetid://4483345998",
+        Name = "Imazu Hub ",
+        Content = "Load Xong Chức Năng! Mời Chúng Mày Bú=))",
+        Image = "rbxassetid://117142420259738",
         Time = 5
     })
 
@@ -11371,8 +11371,8 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "Lap  ",
+    Name = "Imazu Hub ",
     Content = "Loading Config Complete!!",
-    Image = "rbxassetid://4483345998",
+    Image = "rbxassetid://44 83345998",
     Time = 5
 })
