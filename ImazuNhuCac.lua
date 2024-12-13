@@ -2370,12 +2370,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "Lap "
+    local i = " "
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "Lap "
+        local i = " "
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2510,7 +2510,7 @@ CamShake:Stop()
     end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Fiend1sh/FiendMain/refs/heads/main/LapUi')))()
-local Window = OrionLib:MakeWindow({Name = "Lap ", HidePremium = false, IntroText = "", SaveConfig = true, ConfigFolder = "Lap "})
+local Window = OrionLib:MakeWindow({Name = "Imazu Hub Beta | by Teddy ", HidePremium = false, IntroText = "", SaveConfig = true, ConfigFolder = "Lap "})
 
 OrionLib:MakeNotification({
 	Name = "Imazu Hub ",
@@ -2521,7 +2521,7 @@ OrionLib:MakeNotification({
 
 OrionLib:MakeNotification({
 	Name = "Imazu Hub ",
-	Content = "Teddy  Not Skidder, Please don't says",
+	Content = "Tester Nào Ok Anh Thưởng",
 	Image = "rbxassetid://117142420259738",
 	Time = 25
 })
@@ -2529,7 +2529,7 @@ OrionLib:MakeNotification({
 OrionLib:MakeNotification({
     Name = "Imazu Hub ",
     Content = "Đợi Script Chạy...Đừng Mở Gì Trước Khi Load Xong",
-    Image = "rbxassetid://4483345998",
+    Image = "rbxassetid://117142420259738",
     Time = 5
 })
 
@@ -2631,9 +2631,9 @@ local Section = W:AddSection({
     Name = "Update"
 })
 
-W:AddLabel("[+] Lap ")
-W:AddLabel("[+] Lap ")
-W:AddLabel("[+] Lap ")
+W:AddLabel("TeddyYeuEmm ")
+W:AddLabel("Haza_Russ ")
+W:AddLabel("Mới 2 Thằng Làm Thôi=)) ")
 
 local Section = W:AddSection({
     Name = "Status"
