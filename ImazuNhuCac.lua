@@ -2521,7 +2521,7 @@ OrionLib:MakeNotification({
 
 OrionLib:MakeNotification({
 	Name = "Imazu Hub ",
-	Content = "Tester Nào Ok Anh Thưởng",
+	Content = "Beta Version !!",
 	Image = "rbxassetid://117142420259738",
 	Time = 25
 })
@@ -2628,7 +2628,7 @@ local Section = W:AddSection({
 W:AddLabel("Dev: TeddyYeuEmm")
 
 local Section = W:AddSection({
-    Name = "Update"
+    Name = "Information"
 })
 
 W:AddLabel("TeddyYeuEmm ")
@@ -2636,7 +2636,7 @@ W:AddLabel("Haza_Russ ")
 W:AddLabel("Mới 2 Thằng Làm Thôi=)) ")
 
 local Section = W:AddSection({
-    Name = "Status"
+    Name = "Trạng Thái"
 })
 
 local locallv = W:AddLabel("Level")
