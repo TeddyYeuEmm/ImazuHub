@@ -2510,7 +2510,7 @@ CamShake:Stop()
     end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Fiend1sh/FiendMain/refs/heads/main/LapUi')))()
-local Window = OrionLib:MakeWindow({Name = "Imazu Hub Beta | by Teddy ", HidePremium = false, IntroText = "", SaveConfig = true, ConfigFolder = "Lap "})
+local Window = OrionLib:MakeWindow({Name = "Imazu Hub Beta | by Teddy ", HidePremium = false, IntroText = "", SaveConfig = true, ConfigFolder = "Imazu Hub Beta "})
 
 OrionLib:MakeNotification({
 	Name = "Imazu Hub ",
